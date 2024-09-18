@@ -29,4 +29,5 @@ window.onload = function() {
   ${getRandom(when)}
   `;
   console.log(excusa);
+  document.getElementById("excusa").innerHTML = excusa;
 };
