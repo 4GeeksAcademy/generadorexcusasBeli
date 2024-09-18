@@ -18,7 +18,15 @@ window.onload = function() {
     "while I was praying"
   ];
 
-  f;
-
-  console.log("Hello Rigo from the console!");
+  function getRandom(array) {
+    let randomNumber = Math.floor(Math.random() * array.length);
+    return array[randomNumber];
+  }
+  let excusa = `
+  ${getRandom(who)}
+  ${getRandom(action)}
+  ${getRandom(what)}
+  ${getRandom(when)}
+  `;
+  console.log(excusa);
 };
