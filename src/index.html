@@ -11,6 +11,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/61dbcdcdc0.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -20,9 +24,34 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="wrap">
-      <h1>No me lo vas a creer!! pero llegue tarde por que...</h1>
-      <h1 id="excusa"></h1>
+      
+      <button type="button" class="btn btn-primary position-absolute"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop">
+      <i class="fa-solid fa-envelope"></i> <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary">+1 <span class="visually-hidden">unread messages</span></span>
+      </button>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel mx-2">Nuevo Mensaje de Texto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">
+              <p>Jefe no me lo podra creer, pero estoy llegando tarde por que</p>
+              <p id="excusa"> </p>
+            </div></label>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okey</button>
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Despedido</button>
+        </div>
+      </div>
     </div>
+  </div>
   </body>
 </html>

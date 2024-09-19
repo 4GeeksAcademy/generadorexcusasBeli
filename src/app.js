@@ -7,15 +7,36 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let who = ["Mi Hamster", "Mi abuelita", "Super Man", "shakira"];
-  let action = ["comio", "Vomito sobre", "robo", "lloro sobre"];
-  let what = ["mi tarea", "mi despertador", "mi laptop"];
+  let who = [
+    "Mi Hamster",
+    "Mi abuelita",
+    "Super Man",
+    "shakira",
+    "robin jood",
+    "susana gimenez"
+  ];
+  let action = [
+    "comio",
+    "Vomito sobre",
+    "robo",
+    "lloro sobre",
+    "rompio",
+    "hakeo"
+  ];
+  let what = [
+    "mi proyecto",
+    "mi despertador",
+    "mi laptop",
+    "mis planos",
+    "mi agenda"
+  ];
   let when = [
-    "al despertar",
-    "mientras saltaba de un avion",
+    "Cuando Desperto",
+    "mientras saltaba en para caidas",
     "durante una persecucion policial",
-    "mientras conducia",
-    "cuando pestañe"
+    "mientras conducia a gran velocidad",
+    "cuando pestañe",
+    "mientras un perro me corria,"
   ];
 
   function getRandom(array) {
