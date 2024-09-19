@@ -7,15 +7,15 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let who = ["The dog", "My grandma", "The mailman", "My bird"];
-  let action = ["ate", "peed", "crushed", "broke"];
-  let what = ["my homework", "my phone", "the car"];
+  let who = ["Mi Hamster", "Mi abuelita", "Super Man", "shakira"];
+  let action = ["comio", "Vomito sobre", "robo", "lloro sobre"];
+  let what = ["mi tarea", "mi despertador", "mi laptop"];
   let when = [
-    "before the class",
-    "when I was sleeping",
-    "while I was exercising",
-    "during my lunch",
-    "while I was praying"
+    "al despertar",
+    "mientras saltaba de un avion",
+    "durante una persecucion policial",
+    "mientras conducia",
+    "cuando pestañe"
   ];
 
   function getRandom(array) {
