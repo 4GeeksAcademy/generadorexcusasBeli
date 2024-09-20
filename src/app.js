@@ -17,11 +17,11 @@ window.onload = function() {
   ];
   let action = [
     "comio",
-    "Vomito sobre",
+    "vomito sobre",
     "robo",
     "lloro sobre",
     "rompio",
-    "hakeo"
+    "hackeo"
   ];
   let what = [
     "mi proyecto",
@@ -35,8 +35,8 @@ window.onload = function() {
     "mientras saltaba en para caidas",
     "durante una persecucion policial",
     "mientras conducia a gran velocidad",
-    "cuando pestañe",
-    "mientras un perro me corria,"
+    "cuando pestañe durante un tiroteo",
+    "mientras un perro me corria y samuel comia un pudding,"
   ];
 
   function getRandom(array) {
